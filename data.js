@@ -730,7 +730,7 @@ const EMPLOYEES = {
   },
   "255": {
     employeeName: "سعید دارابی",
-    password: "255",
+    password: "0036836966",
     payslips: {
       "فروردین": {work: "1405-01-work.jpg", slip: "1405-01-slip.jpg", pay: "1405-01-pay.jpg"},
       "اردیبهشت": {work: "1405-02-work.jpg", slip: "1405-02-slip.jpg", pay: "1405-02-pay.jpg"},
