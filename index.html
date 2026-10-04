@@ -305,9 +305,14 @@
 
     const MONTHS = ["فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور", "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند"];
 
-    // مسیر تصویر:  type / ماه / کدپرسنلی.jpg
+    // مسیر تصویر: Work / ماه / کدپرسنلی.jpg
     function buildImagePath(type, month, empId) {
-        return `${type}/${month}/${empId}.jpg`;
+        const folderMap = {
+            work: "Work",
+            slip: "Slip",
+            pay: "Pay"
+        };
+        return `${folderMap[type]}/${month}/${empId}.jpg`;
     }
 
     function handleLogin() {
